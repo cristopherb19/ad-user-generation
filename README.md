@@ -41,12 +41,12 @@ Welcome back again!  In this project we will focus on populating our domain by g
 
 <p>
 
-- Within DC-1 VM, open "Windows PowerShell ISE" application as an administrator
+- In the DC-1 VM, open "Windows PowerShell ISE" application as an administrator
 - Create a new file, if one is not already displayed
 - Copy and paste the contents of this <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> into PowerShell ISE file, then save it
 <img src="https://imgur.com/CJp4jIL.png" height="80%" width="80%" alt="Script"/>
 
-- Run script by clicking the green play button at the top
+- Run the script by clicking the green play button at the top
 <img src="https://imgur.com/64J3AEx.png" height="80%" width="80%" alt="Run script button"/>
 
 - Observe the users being created in the PowerShell command-line interface
@@ -55,7 +55,7 @@ Welcome back again!  In this project we will focus on populating our domain by g
 </p>
 <br />
 
-<h3>&#9314; Verify in Active Directory that user have been successfully created</h3>
+<h3>&#9314; Verify in Active Directory that users have been successfully created</h3>
 
 <p>
 
@@ -75,7 +75,7 @@ Welcome back again!  In this project we will focus on populating our domain by g
 - Choose any newly created user from the Active Directory list
 <img src="https://imgur.com/KoYwMp4.png" height="80%" width="80%" alt="Users in Active Directory"/>
 - To ensure the script has worked, you can try to log in to Client-1 VM as the user you chose
-  - Example: If the name of the user you chose is "lewa.juwa", then the login username will be "mydomain.com\lewa.juwa"
+  - Example: If the name of the user you chose is "bup.cet", then the login username will be "mydomain.com\bup.cet"
   - NOTE: The password can be found at the top of the script.  It will be the same for all users.
 <img src="https://imgur.com/ZiQgh4I.png" height="80%" width="80%" alt="Users in Active Directory"/>
 <img src="https://imgur.com/ylVyHiV.png" height="80%" width="80%" alt="Users in Active Directory"/>
