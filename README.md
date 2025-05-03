@@ -75,8 +75,8 @@ Welcome back again!  In this project we will focus on populating our domain by g
 - Choose any newly created user from the Active Directory list
 <img src="https://imgur.com/KoYwMp4.png" height="80%" width="80%" alt="Users in Active Directory"/>
 - To ensure the script has worked, you can try to log in to Client-1 VM as the user you chose
-  - Example: If the name of the user you chose is "bup.cet", then the login username will be "mydomain.com\bup.cet"
-  - NOTE: The password can be found at the top of the script.  It will be the same for all users.
+- Example: If the name of the user you chose is "bup.cet", then the login username will be "mydomain.com\bup.cet"
+- NOTE: The password can be found at the top of the script. It will be the same for all users.
 <img src="https://imgur.com/ZiQgh4I.png" height="80%" width="80%" alt="Users in Active Directory"/>
 <img src="https://imgur.com/ylVyHiV.png" height="80%" width="80%" alt="Users in Active Directory"/>
 <img src="https://imgur.com/zpNUjit.png" height="80%" width="80%" alt="Users in Active Directory"/>
@@ -88,7 +88,7 @@ Welcome back again!  In this project we will focus on populating our domain by g
 
 <p>
   
-Congratulations on completing this project!  After generating numerous users into your domain, you have now created an environment in Azure that is capable of simulating various scenarios.  These scenarios are meant to better your understanding of what can be done within Active Directory.
+Congratulations on completing this project!  After generating numerous users into your domain, you have now created an environment in Azure that is capable of simulating various scenarios. These scenarios are meant to better your understanding of what can be done within Active Directory.
 
 - If you would like to continue to the next step in this series of Active Directory projects, please click <a href="https://github.com/cristopherb19/ad-practical-scenarios">here</a>
 
