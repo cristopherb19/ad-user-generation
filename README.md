@@ -21,8 +21,8 @@ Welcome back again!  In this project we will focus on populating our domain by g
 <h2>Prerequisites</h2>
 
 -  Please complete the following before beginning this project:
-    - <a href="https://github.com/christianDCdev/active-directory-setup">Setup for Active Directory Infrastructure</a>
-    - <a href="https://github.com/christianDCdev/ad-deploy-and-config">Active Directory Deployment and Configuration</a>
+    - <a href="https://github.com/cristopherb19/active-directory-setup">Setup for Active Directory Infrastructure</a>
+    - <a href="https://github.com/cristopherb19/ad-deploy-and-config">Active Directory Deployment and Configuration</a>
 
 <h2>Objectives</h2>
 
@@ -44,13 +44,13 @@ Welcome back again!  In this project we will focus on populating our domain by g
 - Within DC-1 VM, open "Windows PowerShell ISE" application as an administrator
 - Create a new file, if one is not already displayed
 - Copy and paste the contents of this <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> into PowerShell ISE file, then save it
-<img src="https://i.imgur.com/9ly2Mmp.png" height="80%" width="80%" alt="Script"/>
+<img src="https://imgur.com/CJp4jIL.png" height="80%" width="80%" alt="Script"/>
 
 - Run script by clicking the green play button at the top
-<img src="https://i.imgur.com/ArZTgBd.png" height="80%" width="80%" alt="Run script button"/>
+<img src="https://imgur.com/64J3AEx.png" height="80%" width="80%" alt="Run script button"/>
 
 - Observe the users being created in the PowerShell command-line interface
-<img src="https://i.imgur.com/j1xJ89h.png" height="80%" width="80%" alt="Users created in CLI"/>
+<img src="https://imgur.com/gHwWYZn.png" height="80%" width="80%" alt="Users created in CLI"/>
 
 </p>
 <br />
@@ -62,20 +62,25 @@ Welcome back again!  In this project we will focus on populating our domain by g
 - Once script is done running, open "Active Directory Users and Computers" application
 - Find the "_EMPLOYEES" folder
 - Right click folder and select "Refresh" to see if the users have been created
-<img src="https://i.imgur.com/S2oIuQm.png" height="80%" width="80%" alt="Users in Active Directory"/>
+<img src="https://imgur.com/Rjw21ML.png" height="80%" width="80%" alt="Users in Active Directory"/>
   
 </p>
 <br />
 
 <h3>&#9315; Login as one of the newly created users</h3>
 
+
 <p>
 
 - Choose any newly created user from the Active Directory list
+<img src="https://imgur.com/KoYwMp4.png" height="80%" width="80%" alt="Users in Active Directory"/>
 - To ensure the script has worked, you can try to log in to Client-1 VM as the user you chose
   - Example: If the name of the user you chose is "lewa.juwa", then the login username will be "mydomain.com\lewa.juwa"
   - NOTE: The password can be found at the top of the script.  It will be the same for all users.
-  
+<img src="https://imgur.com/ZiQgh4I.png" height="80%" width="80%" alt="Users in Active Directory"/>
+<img src="https://imgur.com/ylVyHiV.png" height="80%" width="80%" alt="Users in Active Directory"/>
+<img src="https://imgur.com/zpNUjit.png" height="80%" width="80%" alt="Users in Active Directory"/>
+
 </p>
 <br />
 
@@ -85,6 +90,6 @@ Welcome back again!  In this project we will focus on populating our domain by g
   
 Congratulations on completing this project!  After generating numerous users into your domain, you have now created an environment in Azure that is capable of simulating various scenarios.  These scenarios are meant to better your understanding of what can be done within Active Directory.
 
-- If you would like to continue to the next step in this series of Active Directory projects, please click <a href="https://github.com/christianDCdev/ad-practical-scenarios">here</a>
+- If you would like to continue to the next step in this series of Active Directory projects, please click <a href="https://github.com/cristopherb19/ad-practical-scenarios">here</a>
 
 </p>
